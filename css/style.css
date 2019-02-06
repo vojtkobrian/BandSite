@@ -1,0 +1,355 @@
+* {
+	font-family: 'Cabin', sans-serif;
+}
+
+body {
+	background-image: url(../img/background.jpg);
+	font-family: 'Cabin', sans-serif;
+}
+
+.logo {
+	border-radius: 50%;
+}
+
+/*Home*/
+.index-back {
+	text-align: center;
+	padding: 5px;
+	font-family: 'Cabin', sans-serif;
+	color: #FFFFFF;
+	font-size: 8rem;
+	letter-spacing: 3px;
+	border: 1px solid white;
+	width: 65%;
+	height: 1400px;
+	display: inline-block;
+	margin-left: 16rem;
+	margin-top: 1rem;
+	margin-bottom: -5rem;
+	border-radius: 4px;
+	background-color: #000000;
+}
+
+.title {
+	font-size: 5rem;
+	padding: 1rem;
+	text-shadow: 1px 1px black;
+	font-family: 'Cabin', sans-serif;
+}
+
+.video-block {
+	border: 1px solid black;
+	padding: 10px;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	text-align: center;
+	width: 65%;
+	margin-left: 11rem;
+}
+
+.video-head {
+	color: #000000;
+}
+
+/*Album Block -- Home*/
+.album-title-banner {
+	text-align: center;
+	padding: 1rem;
+	color: #000000;
+}
+
+.album-banner {
+	border: 1px solid black;
+	width: 600px;
+	height: 650px;
+	margin-left: 12rem;
+	margin-top: 5rem;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+}
+
+#center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+/*Buy Button --Home*/
+.album-buy {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Cabin', sans-serif;
+  	border-radius: 4px;
+  	background-color: #08D801;
+  	border: none;
+  	color: #000000;
+  	text-align: center;
+  	font-size: 18px;
+  	padding: 2px;
+  	width: 70px;
+  	transition: all 0.5s;
+  	cursor: pointer;
+}
+
+.album-buy span {
+	cursor: pointer;
+  	display: inline-block;
+  	position: relative;
+  	transition: 0.5s;
+}
+
+.album-buy span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.album-buy:hover span {
+  padding-right: 25px;
+}
+
+.album-buy:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*End of Buy Button --Home*/
+
+.album-desc {
+	text-align: center;
+	font-size: 20px;
+	color: #000000;
+}
+
+/*About*/
+.about {
+	color: white;
+	font-family: 'Cabin', sans-serif;
+	padding: 1rem;
+	margin-top: 2rem;
+}
+
+.static-pic {
+	border: 1px solid white;
+	background-color: #FFFFFF;
+	padding: 1rem;
+	margin-left: 6.5rem;
+	margin-top: 5rem;
+}
+
+.about-p {
+	color: #FFFFFF;
+	border: 1px solid white;
+	width: 40%;
+	padding: 1rem;
+	float: right;
+	margin-right: 15rem;
+}
+
+.static-about {
+	margin-left: 7rem;
+}
+
+/*Discography*/
+.album-1 {
+	margin-left: 30rem;
+	margin-top: 75px;
+	margin-right: 31rem;
+	border: 1px solid white;
+	padding: 1rem;
+}
+
+.disco-1 {
+	margin-left: 4px;
+}
+
+.album-1-title {
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	text-shadow: 1px 1px black;
+	font-size: 70px;
+}
+
+.release-date {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.album-2 {
+	margin-left: 30rem;
+	margin-top: 75px;
+	margin-right: 31rem;
+	border: 1px solid white;
+	padding: 1rem;
+}
+
+.single-1 {
+	margin-left: 30rem;
+	margin-top: 75px;
+	margin-right: 31rem;
+	border: 1px solid white;
+	padding: 1rem;
+}
+
+.single-1-vid {
+	margin-left: 0.3rem;
+}
+
+/*Lyrics*/
+.lyrics-box {
+	text-align: center;
+	border: 1px solid black;
+	width: 50%;
+	display: inline-block;
+	margin-left: 23rem;
+	margin-top: 3rem;
+	background-color: #000000;
+	border-radius: 4px;
+}
+
+.lyrics-head {
+	color: #FFFFFF;
+	text-align: center;
+	padding: 1rem;
+	font-size: 50px;
+}
+
+.album-lyric-head {
+	color: white;
+	font-size: 25px;
+}
+
+.lyrics-box li {
+	list-style: none;
+}
+
+.lyrics-link {
+	margin-right: 2rem;
+}
+
+.lyrics-link:hover {
+	color: #FFFFFF;
+}
+
+.lyric-textbox {
+	border: 1px solid black;
+	width: 50%;
+	text-align: center;
+	margin-left: 24rem;
+	margin-top: 3rem;
+	background-color: #000000;
+	border-radius: 4px;
+}
+
+.lyric-textbox-head {
+	color: #000000;
+	padding: 1rem;
+	border: 1px solid white;
+	background-color: white;
+	border-radius: 4px;
+	font-size: 50px;
+}
+
+.lyric-textbox-lyrics {
+	color: white;
+}
+
+/*Store*/
+.container {
+	border: 1px solid white;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+	margin-top: 2rem;
+}
+
+.my-4 {
+	text-align: center;
+}
+
+.card-body{
+	text-align: center;
+}
+
+.img-fluid {
+	width: 300px;
+	margin-left: 16.3rem;
+}
+
+.carousel-control-prev {
+	background-color: #000000;
+}
+
+.carousel-control-next {
+	background-color: #000000;
+}
+
+/*Footer*/
+.footer {
+  	background-color: #FFFFFF;
+  	color: white;
+  	left: 0;
+  	bottom: 0;
+  	position: relative;
+  	margin-top: 100px;
+  	border-radius: 4px;
+  	height: 50px;
+ }
+
+ .footer-logo {
+ 	color: #000000;
+ 	font-family: 'Finger Paint', cursive;
+ 	float: left;
+ 	padding-left: 5px;
+ }
+
+ .footer-logo:hover {
+ 	color: red;
+ }
+
+ .rights {
+ 	float: right;
+ 	color: #000000;
+ 	font-size: 20px;
+ 	margin-top: 10px;
+ }
+
+.fa {
+  font-size: 10px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 7px;
+  float: center;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 630px;
+  margin-top: 10px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
