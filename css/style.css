@@ -353,3 +353,119 @@ body {
 	background: #125688;
 	color: white;
 }
+
+@media only screen and (max-width: 750px)
+{
+	.body {
+		width: 100%;
+	}
+
+	.navbar {
+		width: 100%;
+	}
+
+	.form-control {
+		width: 50%;
+	}
+
+	.btn {
+		margin-left: 17rem;
+	}
+
+	.index-back {
+		width: 90%;
+		height: 700px;
+		margin-left: 1.5rem;
+		margin-right: 1rem;
+	}
+
+	.title {
+		font-size: 2rem;
+	}
+
+	.video-block {
+		margin-left: 0px;
+		width: 100%;
+	}
+
+	.home-video {
+		width: 300px;
+	}
+
+	.album-banner {
+		margin-left: 0px;
+		width: 100%;	
+	}
+
+
+	/*About*/
+	.static-pic {
+		width: 400px;
+		height: 250px;
+		margin-left: 5px;
+	}
+
+	.static-about {
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.about-p {
+		width: 100%;
+		text-align: center;
+
+	}
+
+	/*Discography*/
+	.single-1 {
+		width: 95%;
+		margin-left: 8px;
+	}
+
+	.single-1-vid {
+		width: 100%;
+	}
+
+	.album-1 {
+		width: 95%;
+		margin-left: 8px;
+	}
+
+	.album-2 {
+		width: 95%;
+		margin-left: 8px;
+	}
+
+	/*Lyrics*/
+	.lyrics-box {
+		width: 95%;
+		margin-left: 8px;
+	}
+
+	.lyric-textbox {
+		width: 95%;
+		margin-left: 8px;
+	}
+
+	/*Footer*/
+	.footer {
+		width: 100%;
+	}
+
+	.rights {
+		color: white;
+	}
+
+	.footer-copy {
+		text-align: center;
+	}
+
+	.fa {
+		text-align: center;
+		margin-right: 2rem;
+	}
+
+	.fa-facebook {
+		margin-left: 0px;
+	}
+}
